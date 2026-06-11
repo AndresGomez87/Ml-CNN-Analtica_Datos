@@ -1,0 +1,45 @@
+# Entorno virtual
+env/
+.venv/
+venv/
+
+# Dataset (descargado con kagglehub — no subir)
+data/xray_dataset_covid19/
+
+# Modelo entrenado (archivo grande)
+data/*.keras
+data/*.h5
+
+# Skills de agentes (generado automáticamente)
+.agents/
+data/skills/
+skills-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Variables de entorno
+.env
+.env.*
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
