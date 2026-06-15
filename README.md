@@ -105,3 +105,4 @@ jupyter notebook notebooks/cnn_covid19_xray.ipynb
 2. Wang, L., & Wong, A. (2020). COVID-Net: A tailored deep convolutional neural network design for detection of COVID-19 cases from chest X-ray images. *Scientific Reports*, 10, 19549.
 3. Khoong, W.H. (2020). [COVID-19 X-Ray Dataset](https://www.kaggle.com/datasets/khoongweihao/covid19-xray-dataset-train-test-sets). Kaggle.
 4. Chollet, F. (2021). *Deep Learning with Python* (2nd ed.). Manning Publications.
+
