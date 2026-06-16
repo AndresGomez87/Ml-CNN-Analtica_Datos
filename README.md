@@ -68,7 +68,7 @@ python -m venv env
 source env/bin/activate        # Linux/Mac
 # env\Scripts\activate          # Windows
 
-pip install tensorflow numpy matplotlib scikit-learn pillow seaborn jupyter
+pip install tensorflow numpy matplotlib scikit-learn pillow seaborn jupyter streamlit plotly
 ```
 
 **3. Descargar el dataset**
@@ -81,6 +81,11 @@ path = kagglehub.dataset_download("khoongweihao/covid19-xray-dataset-train-test-
 **4. Ejecutar el notebook**
 ```bash
 jupyter notebook notebooks/cnn_covid19_xray.ipynb
+```
+
+**5. Lanzar la aplicación Streamlit**
+```bash
+streamlit run app.py
 ```
 
 ---
@@ -105,4 +110,6 @@ jupyter notebook notebooks/cnn_covid19_xray.ipynb
 2. Wang, L., & Wong, A. (2020). COVID-Net: A tailored deep convolutional neural network design for detection of COVID-19 cases from chest X-ray images. *Scientific Reports*, 10, 19549.
 3. Khoong, W.H. (2020). [COVID-19 X-Ray Dataset](https://www.kaggle.com/datasets/khoongweihao/covid19-xray-dataset-train-test-sets). Kaggle.
 4. Chollet, F. (2021). *Deep Learning with Python* (2nd ed.). Manning Publications.
+
+
 
